@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Powerful Location App</string>
+    <string name="app_description">Advanced GPS tracking and location-based services</string>
+
+    <!-- Google Maps API Key - GANTI DENGAN API KEY ANDA -->
+    <string name="google_maps_key">AIzaSyDYour_Google_Maps_API_Key_Here</string>
+
+    <!-- Main Activity Strings -->
+    <string name="title_activity_main">Super Powerful Location App</string>
+    <string name="subtitle_main">Advanced GPS Tracking &amp; Location Services</string>
+
+    <!-- Button Texts -->
+    <string name="btn_get_location">GET LOCATION</string>
+    <string name="btn_start_tracking">START TRACKING</string>
+    <string name="btn_stop_tracking">STOP TRACKING</string>
+    <string name="btn_clear_map">CLEAR MAP</string>
+    <string name="btn_settings">SETTINGS</string>
+    <string name="btn_history">HISTORY</string>
+    <string name="btn_share_location">SHARE LOCATION</string>
+    <string name="btn_save_location">SAVE LOCATION</string>
+
+    <!-- Location Information Labels -->
+    <string name="label_latitude">Latitude:</string>
+    <string name="label_longitude">Longitude:</string>
+    <string name="label_address">Address:</string>
+    <string name="label_provider">Provider:</string>
+    <string name="label_accuracy">Accuracy:</string>
+    <string name="label_speed">Speed:</string>
+    <string name="label_altitude">Altitude:</string>
+    <string name="label_time">Time:</string>
+    <string name="label_distance">Distance:</string>
+    <string name="label_duration">Duration:</string>
+
+    <!-- Default Values -->
+    <string name="waiting_location">Waiting for location…</string>
+    <string name="not_available">N/A</string>
+    <string name="unknown">Unknown</string>
+    <string name="calculating">Calculating…</string>
+
+    <!-- Location Providers -->
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="provider_fused">Fused Location</string>
+    <string name="provider_passive">Passive</string>
+
+    <!-- Status Messages -->
+    <string name="status_getting_location">Getting current location…</string>
+    <string name="status_tracking_started">Location tracking started!</string>
+    <string name="status_tracking_stopped">Location tracking stopped!</string>
+    <string name="status_location_updated">Location updated</string>
+    <string name="status_map_cleared">Map cleared!</string>
+    <string name="status_location_saved">Location saved!</string>
+    <string name="status_location_shared">Location shared!</string>
+
+    <!-- Error Messages -->
+    <string name="error_location_permission_denied">Location permission denied. App may not work properly.</string>
+    <string name="error_location_services_disabled">Please enable GPS/Location services</string>
+    <string name="error_getting_location">Error getting location</string>
+    <string name="error_no_location_found">No location found</string>
+    <string name="error_geocoder_unavailable">Geocoder not available</string>
+    <string name="error_unable_get_address">Unable to get address</string>
+    <string name="error_map_not_ready">Map is not ready</string>
+    <string name="error_network_unavailable">Network not available</string>
+
+    <!-- Permission Messages -->
+    <string name="permission_location_title">Location Permission Required</string>
+    <string name="permission_location_message">This app needs location permission to provide location-based services</string>
+    <string name="permission_location_rationale">Location permission is required to track your location and provide location-based services</string>
+    <string name="permission_background_location_title">Background Location Permission</string>
+    <string name="permission_background_location_message">Allow location access in background for continuous tracking</string>
+    <string name="permission_granted">Permission granted!</string>
+    <string name="permission_denied">Permission denied</string>
+
+    <!-- Dialog Messages -->
+    <string name="dialog_enable_gps_title">Enable GPS</string>
+    <string name="dialog_enable_gps_message">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="dialog_exit_title">Exit App</string>
+    <string name="dialog_exit_message">Are you sure you want to exit?</string>
+    <string name="dialog_clear_history_title">Clear History</string>
+    <string name="dialog_clear_history_message">Are you sure you want to clear location history?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_settings">Settings</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_location_updated">Location updated</string>
+    <string name="toast_tracking_started">Tracking started</string>
+    <string name="toast_tracking_stopped">Tracking stopped</string>
+    <string name="toast_location_copied">Location copied to clipboard</string>
+    <string name="toast_coming_soon">Coming soon!</string>
+
+    <!-- Map Types -->
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_hybrid">Hybrid</string>
+
+    <!-- Units -->
+    <string name="unit_meters">meters</string>
+    <string name="unit_kilometers">km</string>
+    <string name="unit_miles">miles</string>
+    <string name="unit_feet">feet</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_mph">mph</string>
+    <string name="unit_mps">m/s</string>
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_minutes">minutes</string>
+    <string name="unit_hours">hours</string>
+</resources>
